@@ -13,23 +13,79 @@ div {
 
 .container {
   width: 960px;
-}
-
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  background-color: cadetblue;
+  margin: auto;
 }
 
 a {
   color: white;
 }
 
-/* header section */
+/* header and banner section */
 
+header {
+  height: 30rem;
+  padding-top: 1rem;
+  background-image: url('../images/glasses-bg.png');
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 
-/* banner section */
+}
+
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1rem 0;
+  background-color: cadetblue;
+  color: white;
+  height: 2rem;
+}
+
+nav div {
+  display: flex;
+  align-items: center;
+}
+
+img {
+  height: 1.5rem;
+  padding-left: 2rem;
+  padding-right: 1rem;
+}
+
+div ul {
+  display: flex;
+  justify-content: space-between;
+  padding-right: 1rem;
+}
+
+li {
+  padding: 1rem 2rem 1rem 2rem;
+}
+
+.headline {
+  display: inline-block;
+  padding: 1.7rem 5rem;
+  margin-top: 10rem;
+  margin-right: -2rem;
+  font-weight: bold;
+  font-size: 2rem;
+  line-height: 1.2rem;
+  background-color: white;
+  color: black;
+}
+
+.flex {
+  display: flex;
+}
+
+header .flex {
+  justify-content: flex-end;
+}
+
+.mobile-menu {
+  display: none;
+}
 
 
 /* options section */
