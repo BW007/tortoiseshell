@@ -11,6 +11,21 @@ div {
   display: block;
 }
 
+.container {
+  width: 960px;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: cadetblue;
+}
+
+a {
+  color: white;
+}
+
 /* header section */
 
 
