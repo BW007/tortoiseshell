@@ -162,11 +162,39 @@ footer .footer {
   header {
     height: 22rem;
     padding-top: 0;
+    background-position: 40%;
   }
   .headline {
     margin-top: 5rem;
     margin-right: 2rem;
     padding: .75rem 4rem;
     font-size: 1.33rem;
+  }
+}
+
+@media only screen and (max-width: 470px) {
+  .container {
+    width: 100%;
+  }
+  header {
+    height: 17rem;
+    padding-top: 0;
+    background-position: 20%;
+  }
+  .headline {
+    margin: 9rem 0;
+    padding: 1rem 0;
+    font-size: 1rem;
+    text-align: center;
+    width: 100%;
+  }
+  .supporting {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .info {
+    width: 100%;
   }
 }
