@@ -47,7 +47,7 @@ nav div {
   align-items: center;
 }
 
-img {
+img.logo-image {
   height: 1.5rem;
   padding-left: 2rem;
   padding-right: 1rem;
@@ -90,12 +90,37 @@ header .flex {
 
 /* options section */
 
+.supporting {
+  display: flex;
+  justify-content: center;
+}
+
 .options {
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
+  align-items: center;
+  width: 5rem;
+  height: 8rem;
   margin-top: 3rem;
+  text-align: center;
+  padding: 1rem 6rem;
+
 }
+
+.options img.paper-image {
+  width: 3.5rem;
+
+}
+
+.options img {
+  width: 5rem;
+  margin-bottom: 1rem;
+}
+
+
+
+
 
 /* philosophy and hours section */
 
