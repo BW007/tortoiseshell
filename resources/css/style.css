@@ -90,6 +90,12 @@ header .flex {
 
 /* options section */
 
+.options {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin-top: 3rem;
+}
 
 /* philosophy and hours section */
 
